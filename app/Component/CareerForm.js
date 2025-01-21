@@ -47,7 +47,7 @@ export default function CareerForm() {
         resume: null,
         coverLetter: null,
       });
-    } catch (error) {
+    } catch {
       setErrorMessage("Failed to submit the application.");
       setSuccessMessage("");
     }
